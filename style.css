@@ -1,0 +1,22 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+#canvas {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    flex-wrap: wrap;
+}
+
+.square {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    flex: 1;
+
+}
