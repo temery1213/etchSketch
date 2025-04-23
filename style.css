@@ -21,7 +21,7 @@ body {
     align-items: center;
     margin: 0;
     height: 100vh;
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(14, 90, 86);
 
 }
 
@@ -34,13 +34,14 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 #canvas {
+    background-color: rgb(242, 243, 243);
     margin-left: 50px;
     display: flex;
     width: 960px;
     height: 1000px;
     flex-wrap: wrap;
     border: 3px solid black;
-    background-color: rgb(26, 25, 25, var(--square-opacity, 0));
+    
     
 }
 
@@ -60,7 +61,7 @@ form {
     justify-content: center;
     align-items: center;
     gap: 5px;
-    background-color: rgb(247, 247, 247);
+    
     
 }
 
@@ -77,6 +78,12 @@ form {
 
 #countForm {
     gap: 5px;
+    
+}
+
+form {
+    background-color: rgb(14, 90, 86);
+    color: aliceblue;
 }
 
 button {
@@ -84,8 +91,7 @@ button {
 }
 
 #title {
-    text-shadow:
-  0px 0px 0px rgb(69, 14, 77),
-  0 0 0.1em rgb(4, 4, 65);
+    color: whitesmoke;
+    text-shadow: 0 0 3px #581158, 0 0 5px #0000FF;
    
 }
