@@ -1,3 +1,19 @@
+@media only screen and (max-width: 480px) {
+    #canvas {
+        width: 400px;
+        height: auto;
+        border-width: 2px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #canvas {
+        width: 560px;
+        height: auto;
+        border-width: 2px;
+    }
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -41,6 +57,8 @@ form {
     justify-content: center;
     align-items: center;
     gap: 5px;
+    background-color: rgb(247, 247, 247); /* match body */
+    
 }
 
 #submitCanvasCount {
