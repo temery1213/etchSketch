@@ -26,7 +26,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .square {
-    /*>border: 1px solid black;*/
+    
     flex: 0 0 auto;
     aspect-ratio: 1 / 1;
     box-sizing: border-box;
@@ -41,7 +41,6 @@ form {
     justify-content: center;
     align-items: center;
     gap: 5px;
-    background-color: antiquewhite;
 }
 
 #submitCanvasCount {
