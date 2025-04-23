@@ -7,15 +7,17 @@
     <title>Document</title>
 </head>
 <body>
+
+    <h1 id="title">Etch-a-Sketch!</h1>
     <form>
-        <label for="canvasCount">How many squares per side? (1-100)</label>
+        <label for="canvasCount"><strong>How many squares per side? (1-100)</strong></label>
         <input
         type="number"
         id="canvasCount"
         min="1"
         max="100"/>
         <input type="submit" value="Let's draw!" id="submitCanvasCount">
-        <button id="randomColor">Random colors!</button>
+        <button id="randomColor"><strong>Random colors!</strong></button>
     </form>
     
     <div id="canvas"></div>

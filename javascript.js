@@ -53,6 +53,17 @@ function createRandomCanvas() {
     }
 }
 
+function randomBorder() {
+    const canvas = document.querySelector('#canvas');
+    
+    const randomColor = Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0');
+            const r = parseInt(randomColor.slice(0, 2), 16);
+            const g = parseInt(randomColor.slice(2, 4), 16);
+            const b = parseInt(randomColor.slice(4, 6), 16);
+
+    canvas.style.borderColor = `rgba(${r}, ${g}, ${b})`;
+}
+
 document.querySelector('#submitCanvasCount').addEventListener('click', (event) => {
     event.preventDefault();
     createCanvas();
@@ -61,6 +72,7 @@ document.querySelector('#submitCanvasCount').addEventListener('click', (event) =
 document.querySelector('#randomColor').addEventListener('click', (event) => {
     event.preventDefault();
     createRandomCanvas();
+    randomBorder();
 });
 
 function resetCanvas() {

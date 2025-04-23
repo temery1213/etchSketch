@@ -17,9 +17,12 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     height: 100vh;
     background-color: rgb(247, 247, 247);
+
 }
 
 input[type=number]::-webkit-inner-spin-button, 
@@ -57,7 +60,7 @@ form {
     justify-content: center;
     align-items: center;
     gap: 5px;
-    background-color: rgb(247, 247, 247); /* match body */
+    background-color: rgb(247, 247, 247);
     
 }
 
@@ -74,4 +77,16 @@ form {
 
 #countForm {
     gap: 5px;
+}
+
+button {
+    color: rgb(248, 248, 248);
+}
+
+#title {
+    text-shadow:
+  0px 0px 0px rgb(69, 14, 77),
+  
+  0 0 0.1em rgb(4, 4, 65);
+   
 }
