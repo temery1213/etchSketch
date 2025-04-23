@@ -3,7 +3,7 @@ const canvas = document.querySelector('#canvas');
 
 function createCanvas() {
     canvas.innerHTML = '';
-
+    canvas.style.borderColor = 'black';
     const count = parseInt(userNumber.value);
     canvas.style.setProperty('--squares-per-row', count);
 
